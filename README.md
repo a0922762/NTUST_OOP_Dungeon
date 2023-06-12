@@ -1,5 +1,6 @@
 # Dungeon Final Demo - 第15組
-## 按下Space進入地宮按下Q離開
+## 遊戲展示畫面
+![](Img/Start.png)
 
 
 ## 角色基本控制說明
@@ -13,40 +14,36 @@
 
 ## 物件說明
 ### 傷害陷阱:直接扣血
-![](https://hackmd.io/_uploads/ByqkHLEP2.png)
+![](Img/T1.png)
 
 ### 流血陷阱: 給流血Buff
-![](https://hackmd.io/_uploads/rk7KELNwh.png)
+![](Img/T2.png)
 
 ### 恢復藥水: 恢復血量到滿
-![](https://hackmd.io/_uploads/rJe9NUVPh.png)
-
+![](Img/P2.png)
 ### 力量藥水:最大傷害/最小傷害都+1
-![](https://hackmd.io/_uploads/rytdE8EPn.png)
+![](Img/P1.png)
 
 ## 怪物物件說明
 ### 老鼠:小怪
-![](https://hackmd.io/_uploads/SJf5OINv3.png)
+![](Img/C2.png)
 
 ### 蛇:閃避值很高攻擊時有機率無傷害
-![](https://hackmd.io/_uploads/B1A0OLEw2.png)
-
+![](Img/C1.png)
 
 ### 狐狸人:素質強一點的小怪
-![](https://hackmd.io/_uploads/HklKjdIEvn.png)
-
+![](Img/C3.png)
 
 ### 螃蟹:一回合可以移動兩格
-![](https://hackmd.io/_uploads/ryiaOUEPn.png)
+![](Img/C4.png)
 
 ## 移動物件說明
 ### 出口
-![](https://hackmd.io/_uploads/S1YUY8Vwh.png)
-
+![](Img/D3.png)
 ### 往上層通道
-![](https://hackmd.io/_uploads/SkPttLEDn.png)
+![](Img/D1.png)
 
 ### 往下層通道
-![](https://hackmd.io/_uploads/HJ4jKUVDh.png)
+![](Img/D2.png)
 
 
