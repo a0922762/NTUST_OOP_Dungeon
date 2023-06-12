@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="來源檔案">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="標頭檔">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="資源檔">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>資源檔</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="Board.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="Creature.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="Common.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureCache.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="Animator.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="Astar.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="Rat.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomNum.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="Snake.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerStatusInfo.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="DownStair.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="Floor.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="UpStair.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="Position.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverWindow.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="GameControl.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomDungeon.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="Gnoll.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="Trigger.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="MusicPlayer.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="TextManager.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectMananger.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="DamageTrigger.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="BleedTrigger.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="RecoveryPotion.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="Crab.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="AtkPotion.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="DefPotion.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="PreGame.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Board.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Creature.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomDungeon.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureCache.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Animator.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Rat.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomNum.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Snake.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerStatusInfo.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Astar.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="DownStair.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Floor.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="UpStair.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Position.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverWindow.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="GameControl.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\Utils\Cross.hpp">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Gnoll.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Trigger.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="MusicPlayer.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="TextManager.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectMananger.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="DamageTrigger.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="BleedTrigger.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="RecoveryPotion.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Crab.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="AtkPotion.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="DefPotion.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="PreGame.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,210 @@
+﻿  Board.cpp
+D:\GitHub\C++_Game\Pratice\Pratice\Board.cpp(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+D:\GitHub\C++_Game\Pratice\Pratice\Config.h(13,52): warning C4129: 'G': 無法辨識的字元逸出序列
+D:\GitHub\C++_Game\Pratice\Pratice\Config.h(13,52): warning C4129: 'C': 無法辨識的字元逸出序列
+D:\GitHub\C++_Game\Pratice\Pratice\Config.h(13,52): warning C4129: 'P': 無法辨識的字元逸出序列
+D:\GitHub\C++_Game\Pratice\Pratice\RandomDungeon.h(143,1): warning C4267: '引數': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\GitHub\C++_Game\Pratice\Pratice\RandomDungeon.h(369,1): warning C4267: '引數': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\GitHub\C++_Game\Pratice\Pratice\Floor.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+D:\GitHub\C++_Game\Pratice\Pratice\Creature.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+D:\GitHub\C++_Game\Pratice\Pratice\RandomNum.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+D:\GitHub\C++_Game\Pratice\Pratice\GameControl.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+  DownStair.cpp
+D:\GitHub\C++_Game\Pratice\Pratice\Config.h(13,52): warning C4129: 'G': 無法辨識的字元逸出序列
+D:\GitHub\C++_Game\Pratice\Pratice\Config.h(13,52): warning C4129: 'C': 無法辨識的字元逸出序列
+D:\GitHub\C++_Game\Pratice\Pratice\Config.h(13,52): warning C4129: 'P': 無法辨識的字元逸出序列
+D:\GitHub\C++_Game\Pratice\Pratice\Creature.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+D:\GitHub\C++_Game\Pratice\Pratice\RandomNum.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+D:\GitHub\C++_Game\Pratice\Pratice\GameControl.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+D:\GitHub\C++_Game\Pratice\Pratice\DownStair.cpp(23,40): warning C4244: '引數': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\GitHub\C++_Game\Pratice\Pratice\DownStair.cpp(23,27): warning C4244: '引數': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+  Game.cpp
+D:\GitHub\C++_Game\Pratice\Pratice\Game.cpp(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+D:\GitHub\C++_Game\Pratice\Pratice\Config.h(13,52): warning C4129: 'G': 無法辨識的字元逸出序列
+D:\GitHub\C++_Game\Pratice\Pratice\Config.h(13,52): warning C4129: 'C': 無法辨識的字元逸出序列
+D:\GitHub\C++_Game\Pratice\Pratice\Config.h(13,52): warning C4129: 'P': 無法辨識的字元逸出序列
+D:\GitHub\C++_Game\Pratice\Pratice\Creature.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+D:\GitHub\C++_Game\Pratice\Pratice\RandomNum.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+D:\GitHub\C++_Game\Pratice\Pratice\GameControl.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+D:\GitHub\C++_Game\Pratice\Pratice\RandomDungeon.h(143,1): warning C4267: '引數': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\GitHub\C++_Game\Pratice\Pratice\RandomDungeon.h(369,1): warning C4267: '引數': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\GitHub\C++_Game\Pratice\Pratice\Floor.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+D:\GitHub\C++_Game\Pratice\Pratice\Astar.h(36,1): warning C4267: '=': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\GitHub\C++_Game\Pratice\Pratice\Astar.h(37,1): warning C4267: '=': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\GitHub\C++_Game\Pratice\Pratice\PlayerStatusInfo.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+  Gnoll.cpp
+D:\GitHub\C++_Game\Pratice\Pratice\Creature.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+D:\GitHub\C++_Game\Pratice\Pratice\Config.h(13,52): warning C4129: 'G': 無法辨識的字元逸出序列
+D:\GitHub\C++_Game\Pratice\Pratice\Config.h(13,52): warning C4129: 'C': 無法辨識的字元逸出序列
+D:\GitHub\C++_Game\Pratice\Pratice\Config.h(13,52): warning C4129: 'P': 無法辨識的字元逸出序列
+D:\GitHub\C++_Game\Pratice\Pratice\RandomNum.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+D:\GitHub\C++_Game\Pratice\Pratice\GameControl.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+D:\GitHub\C++_Game\Pratice\Pratice\Astar.h(36,1): warning C4267: '=': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\GitHub\C++_Game\Pratice\Pratice\Astar.h(37,1): warning C4267: '=': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\GitHub\C++_Game\Pratice\Pratice\RandomDungeon.h(143,1): warning C4267: '引數': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\GitHub\C++_Game\Pratice\Pratice\RandomDungeon.h(369,1): warning C4267: '引數': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\GitHub\C++_Game\Pratice\Pratice\Floor.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+D:\GitHub\C++_Game\Pratice\Pratice\Gnoll.cpp(28,39): warning C4244: '引數': 將 'float' 轉換為 'T'，由於類型不同，可能導致資料遺失
+          with
+          [
+              T=int
+          ]
+D:\GitHub\C++_Game\Pratice\Pratice\Gnoll.cpp(28,27): warning C4244: '引數': 將 'float' 轉換為 'T'，由於類型不同，可能導致資料遺失
+          with
+          [
+              T=int
+          ]
+D:\GitHub\C++_Game\Pratice\Pratice\Gnoll.cpp(33,85): warning C4305: '引數': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\GitHub\C++_Game\Pratice\Pratice\Gnoll.cpp(34,41): warning C4244: '引數': 將 'float' 轉換為 'T'，由於類型不同，可能導致資料遺失
+          with
+          [
+              T=int
+          ]
+D:\GitHub\C++_Game\Pratice\Pratice\Gnoll.cpp(36,87): warning C4305: '引數': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\GitHub\C++_Game\Pratice\Pratice\Gnoll.cpp(37,42): warning C4244: '引數': 將 'float' 轉換為 'T'，由於類型不同，可能導致資料遺失
+          with
+          [
+              T=int
+          ]
+D:\GitHub\C++_Game\Pratice\Pratice\Gnoll.cpp(39,89): warning C4305: '引數': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\GitHub\C++_Game\Pratice\Pratice\Gnoll.cpp(40,43): warning C4244: '引數': 將 'float' 轉換為 'T'，由於類型不同，可能導致資料遺失
+          with
+          [
+              T=int
+          ]
+  Item.cpp
+D:\GitHub\C++_Game\Pratice\Pratice\Config.h(13,52): warning C4129: 'G': 無法辨識的字元逸出序列
+D:\GitHub\C++_Game\Pratice\Pratice\Config.h(13,52): warning C4129: 'C': 無法辨識的字元逸出序列
+D:\GitHub\C++_Game\Pratice\Pratice\Config.h(13,52): warning C4129: 'P': 無法辨識的字元逸出序列
+D:\GitHub\C++_Game\Pratice\Pratice\Creature.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+D:\GitHub\C++_Game\Pratice\Pratice\RandomNum.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+D:\GitHub\C++_Game\Pratice\Pratice\GameControl.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+  Main.cpp
+D:\GitHub\C++_Game\Pratice\Pratice\Config.h(13,52): warning C4129: 'G': 無法辨識的字元逸出序列
+D:\GitHub\C++_Game\Pratice\Pratice\Config.h(13,52): warning C4129: 'C': 無法辨識的字元逸出序列
+D:\GitHub\C++_Game\Pratice\Pratice\Config.h(13,52): warning C4129: 'P': 無法辨識的字元逸出序列
+D:\GitHub\C++_Game\Pratice\Pratice\Creature.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+D:\GitHub\C++_Game\Pratice\Pratice\RandomNum.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+D:\GitHub\C++_Game\Pratice\Pratice\GameControl.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+D:\GitHub\C++_Game\Pratice\Pratice\RandomDungeon.h(143,1): warning C4267: '引數': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\GitHub\C++_Game\Pratice\Pratice\RandomDungeon.h(369,1): warning C4267: '引數': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\GitHub\C++_Game\Pratice\Pratice\Floor.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+D:\GitHub\C++_Game\Pratice\Pratice\Astar.h(36,1): warning C4267: '=': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\GitHub\C++_Game\Pratice\Pratice\Astar.h(37,1): warning C4267: '=': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\GitHub\C++_Game\Pratice\Pratice\PlayerStatusInfo.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+  Monster.cpp
+D:\GitHub\C++_Game\Pratice\Pratice\Monster.cpp(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+D:\GitHub\C++_Game\Pratice\Pratice\Creature.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+D:\GitHub\C++_Game\Pratice\Pratice\Config.h(13,52): warning C4129: 'G': 無法辨識的字元逸出序列
+D:\GitHub\C++_Game\Pratice\Pratice\Config.h(13,52): warning C4129: 'C': 無法辨識的字元逸出序列
+D:\GitHub\C++_Game\Pratice\Pratice\Config.h(13,52): warning C4129: 'P': 無法辨識的字元逸出序列
+D:\GitHub\C++_Game\Pratice\Pratice\RandomNum.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+D:\GitHub\C++_Game\Pratice\Pratice\GameControl.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+D:\GitHub\C++_Game\Pratice\Pratice\Astar.h(36,1): warning C4267: '=': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\GitHub\C++_Game\Pratice\Pratice\Astar.h(37,1): warning C4267: '=': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\GitHub\C++_Game\Pratice\Pratice\RandomDungeon.h(143,1): warning C4267: '引數': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\GitHub\C++_Game\Pratice\Pratice\RandomDungeon.h(369,1): warning C4267: '引數': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\GitHub\C++_Game\Pratice\Pratice\Floor.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+D:\GitHub\C++_Game\Pratice\Pratice\Monster.cpp(26,87): warning C4305: '引數': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+  Player.cpp
+D:\GitHub\C++_Game\Pratice\Pratice\Config.h(13,52): warning C4129: 'G': 無法辨識的字元逸出序列
+D:\GitHub\C++_Game\Pratice\Pratice\Config.h(13,52): warning C4129: 'C': 無法辨識的字元逸出序列
+D:\GitHub\C++_Game\Pratice\Pratice\Config.h(13,52): warning C4129: 'P': 無法辨識的字元逸出序列
+D:\GitHub\C++_Game\Pratice\Pratice\RandomNum.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+D:\GitHub\C++_Game\Pratice\Pratice\Creature.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+D:\GitHub\C++_Game\Pratice\Pratice\GameControl.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+D:\GitHub\C++_Game\Pratice\Pratice\Astar.h(36,1): warning C4267: '=': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\GitHub\C++_Game\Pratice\Pratice\Astar.h(37,1): warning C4267: '=': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\GitHub\C++_Game\Pratice\Pratice\RandomDungeon.h(143,1): warning C4267: '引數': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\GitHub\C++_Game\Pratice\Pratice\RandomDungeon.h(369,1): warning C4267: '引數': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\GitHub\C++_Game\Pratice\Pratice\Floor.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+D:\GitHub\C++_Game\Pratice\Pratice\Player.cpp(84,90): warning C4305: '引數': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\GitHub\C++_Game\Pratice\Pratice\Player.cpp(92,53): warning C4244: '引數': 將 'int' 轉換為 'T'，由於類型不同，可能導致資料遺失
+          with
+          [
+              T=float
+          ]
+D:\GitHub\C++_Game\Pratice\Pratice\Player.cpp(92,40): warning C4244: '引數': 將 'int' 轉換為 'T'，由於類型不同，可能導致資料遺失
+          with
+          [
+              T=float
+          ]
+  Rat.cpp
+D:\GitHub\C++_Game\Pratice\Pratice\Creature.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+D:\GitHub\C++_Game\Pratice\Pratice\Config.h(13,52): warning C4129: 'G': 無法辨識的字元逸出序列
+D:\GitHub\C++_Game\Pratice\Pratice\Config.h(13,52): warning C4129: 'C': 無法辨識的字元逸出序列
+D:\GitHub\C++_Game\Pratice\Pratice\Config.h(13,52): warning C4129: 'P': 無法辨識的字元逸出序列
+D:\GitHub\C++_Game\Pratice\Pratice\RandomNum.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+D:\GitHub\C++_Game\Pratice\Pratice\GameControl.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+D:\GitHub\C++_Game\Pratice\Pratice\Astar.h(36,1): warning C4267: '=': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\GitHub\C++_Game\Pratice\Pratice\Astar.h(37,1): warning C4267: '=': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\GitHub\C++_Game\Pratice\Pratice\RandomDungeon.h(143,1): warning C4267: '引數': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\GitHub\C++_Game\Pratice\Pratice\RandomDungeon.h(369,1): warning C4267: '引數': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\GitHub\C++_Game\Pratice\Pratice\Floor.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+D:\GitHub\C++_Game\Pratice\Pratice\Rat.cpp(40,87): warning C4305: '引數': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+  Snake.cpp
+D:\GitHub\C++_Game\Pratice\Pratice\Creature.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+D:\GitHub\C++_Game\Pratice\Pratice\Config.h(13,52): warning C4129: 'G': 無法辨識的字元逸出序列
+D:\GitHub\C++_Game\Pratice\Pratice\Config.h(13,52): warning C4129: 'C': 無法辨識的字元逸出序列
+D:\GitHub\C++_Game\Pratice\Pratice\Config.h(13,52): warning C4129: 'P': 無法辨識的字元逸出序列
+D:\GitHub\C++_Game\Pratice\Pratice\RandomNum.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+D:\GitHub\C++_Game\Pratice\Pratice\GameControl.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+D:\GitHub\C++_Game\Pratice\Pratice\Astar.h(36,1): warning C4267: '=': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\GitHub\C++_Game\Pratice\Pratice\Astar.h(37,1): warning C4267: '=': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\GitHub\C++_Game\Pratice\Pratice\RandomDungeon.h(143,1): warning C4267: '引數': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\GitHub\C++_Game\Pratice\Pratice\RandomDungeon.h(369,1): warning C4267: '引數': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\GitHub\C++_Game\Pratice\Pratice\Floor.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+D:\GitHub\C++_Game\Pratice\Pratice\Snake.cpp(31,39): warning C4244: '引數': 將 'float' 轉換為 'T'，由於類型不同，可能導致資料遺失
+          with
+          [
+              T=int
+          ]
+D:\GitHub\C++_Game\Pratice\Pratice\Snake.cpp(31,27): warning C4244: '引數': 將 'float' 轉換為 'T'，由於類型不同，可能導致資料遺失
+          with
+          [
+              T=int
+          ]
+D:\GitHub\C++_Game\Pratice\Pratice\Snake.cpp(36,42): warning C4244: '引數': 將 'float' 轉換為 'T'，由於類型不同，可能導致資料遺失
+          with
+          [
+              T=int
+          ]
+D:\GitHub\C++_Game\Pratice\Pratice\Snake.cpp(39,42): warning C4244: '引數': 將 'float' 轉換為 'T'，由於類型不同，可能導致資料遺失
+          with
+          [
+              T=int
+          ]
+D:\GitHub\C++_Game\Pratice\Pratice\Snake.cpp(41,89): warning C4305: '引數': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\GitHub\C++_Game\Pratice\Pratice\Snake.cpp(42,43): warning C4244: '引數': 將 'float' 轉換為 'T'，由於類型不同，可能導致資料遺失
+          with
+          [
+              T=int
+          ]
+D:\GitHub\C++_Game\Pratice\Pratice\Snake.cpp(48,53): warning C4244: '引數': 將 'int' 轉換為 'T'，由於類型不同，可能導致資料遺失
+          with
+          [
+              T=float
+          ]
+D:\GitHub\C++_Game\Pratice\Pratice\Snake.cpp(48,40): warning C4244: '引數': 將 'int' 轉換為 'T'，由於類型不同，可能導致資料遺失
+          with
+          [
+              T=float
+          ]
+  Trigger.cpp
+D:\GitHub\C++_Game\Pratice\Pratice\Config.h(13,52): warning C4129: 'G': 無法辨識的字元逸出序列
+D:\GitHub\C++_Game\Pratice\Pratice\Config.h(13,52): warning C4129: 'C': 無法辨識的字元逸出序列
+D:\GitHub\C++_Game\Pratice\Pratice\Config.h(13,52): warning C4129: 'P': 無法辨識的字元逸出序列
+D:\GitHub\C++_Game\Pratice\Pratice\Creature.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+D:\GitHub\C++_Game\Pratice\Pratice\RandomNum.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+D:\GitHub\C++_Game\Pratice\Pratice\GameControl.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+D:\GitHub\C++_Game\Pratice\Pratice\Trigger.cpp(38,40): warning C4244: '引數': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\GitHub\C++_Game\Pratice\Pratice\Trigger.cpp(38,27): warning C4244: '引數': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+  UpStair.cpp
+D:\GitHub\C++_Game\Pratice\Pratice\Config.h(13,52): warning C4129: 'G': 無法辨識的字元逸出序列
+D:\GitHub\C++_Game\Pratice\Pratice\Config.h(13,52): warning C4129: 'C': 無法辨識的字元逸出序列
+D:\GitHub\C++_Game\Pratice\Pratice\Config.h(13,52): warning C4129: 'P': 無法辨識的字元逸出序列
+D:\GitHub\C++_Game\Pratice\Pratice\Creature.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+D:\GitHub\C++_Game\Pratice\Pratice\RandomNum.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+D:\GitHub\C++_Game\Pratice\Pratice\GameControl.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+  正在產生程式碼...
+  Pratice.vcxproj -> D:\GitHub\C++_Game\Pratice\x64\Debug\Pratice.exe

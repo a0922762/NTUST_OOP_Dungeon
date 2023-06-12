@@ -1,0 +1,26 @@
+﻿D:\Visual Studio2022\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8028: 中繼目錄 (x64\Release\) 包含從其他專案 (Pratice.vcxproj) 共用的檔案。這可能導致錯誤的清除和重建行為。
+  Player.cpp
+D:\GitHub\C++_Game\Pratice\Pratice\RandomNum.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+D:\GitHub\C++_Game\Pratice\Pratice\Creature.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+D:\GitHub\C++_Game\Pratice\Pratice\GameControl.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+D:\GitHub\C++_Game\Pratice\Pratice\EffectMananger.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+D:\GitHub\C++_Game\Pratice\Pratice\Floor.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+D:\GitHub\C++_Game\Pratice\Pratice\Player.cpp(66,40): warning C4244: '引數': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\GitHub\C++_Game\Pratice\Pratice\Player.cpp(66,27): warning C4244: '引數': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\GitHub\C++_Game\Pratice\Pratice\Player.cpp(84,90): warning C4305: '引數': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\GitHub\C++_Game\Pratice\Pratice\Player.cpp(92,53): warning C4244: '引數': 將 'int' 轉換為 'T'，由於類型不同，可能導致資料遺失
+          with
+          [
+              T=float
+          ]
+D:\GitHub\C++_Game\Pratice\Pratice\Player.cpp(92,40): warning C4244: '引數': 將 'int' 轉換為 'T'，由於類型不同，可能導致資料遺失
+          with
+          [
+              T=float
+          ]
+  正在產生程式碼
+  0 of 1751 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  已完成程式碼產生
+  Pratice.vcxproj -> D:\GitHub\C++_Game\Pratice\x64\Release\Dungeon.exe
