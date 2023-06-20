@@ -11,6 +11,7 @@ void RecoveryPotion::use()
 	if (dead) {
 		return;
 	}
+	TextManager::addRiseText(gameControl->getPlayer(), "HP+" + to_string(gameControl->getPlayer()->getMaxHp() - gameControl->getPlayer()->getHp()), gameControl->getPlayer()->getPosition(), 60, 1, 25, sf::Color::Green);
 	gameControl->getPlayer()->setHp(gameControl->getPlayer()->getMaxHp());
 	dead = true;
 

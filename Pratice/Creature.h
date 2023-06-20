@@ -11,7 +11,8 @@ using namespace std;
 class Creature : public sf::Sprite
 {
 protected:
-	sf::Vector2i sPos; // the position of creature
+	// 遊戲屬性
+	Position sPos; // the position of creature
 	int		sHp; // the current hp of creature
 	int		sMaxHp; // the max hp of creature
 	int		sMaxAtk; // the max attack of creature
@@ -32,29 +33,20 @@ protected:
 	bool inAttack; // 是否在攻擊狀態
 	bool inChase; // 是否在追逐
 	bool inDead; // 是否死亡
-	sf::Text text;
-	sf::Font font;
-	double maxUpDis;
-	double upDis;
-
 
 	RandomNum randomNum;
-	string name;
-
 protected:
-
+	virtual void loadImage() = 0;
 
 public:
-	Creature();
-	Creature(sf::Vector2i pos, int sMaxHp, int sMinAtk, int sMaxAtk, int sDef, int sDodge, int sHit);
+	Creature(Position pos, int sMaxHp, int sMinAtk, int sMaxAtk, int sDef, int sDodge, int sHit);
 
 
 	virtual bool moveCoridnate(DIRECTION dir, vector<vector<bool>> obstacleMap);
-	virtual void moveCoridnate(sf::Vector2i pos);
+	virtual void moveCoridnate(const Position& pos);
 	virtual void attack(Creature& target);
 	virtual void beDamage(int points);
 	virtual void dodge();
-	virtual void loadAnimation();
 	virtual void updateAnimation(sf::Time dt);
 
 	virtual bool isIdle() const;
@@ -70,14 +62,15 @@ public:
 	int getMaxAtk() const;
 	int getMinAtk() const;
 	int getDef() const;
+	const Position getPos() const;
+
 
 	void setHp(int hp) { sHp = hp; };
 	void setMaxAtk(int atk) { sMaxAtk = atk; }
 	void setMinAtk(int atk) { sMinAtk = atk; }
 	void setDef(int def) { sDef = def; }
 
-	sf::Text getText() const { return text; }
 
-	sf::Vector2i getCoridnate() const;
+	const Position& getCoridnate() const;
 };
 

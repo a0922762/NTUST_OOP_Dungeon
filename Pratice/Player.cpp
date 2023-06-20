@@ -12,19 +12,14 @@
 #include "Monster.h"
 #include "Player.h"
 
-Player::Player(sf::Vector2i sPos) : Creature(sPos, 50, 3, 6, 2, 2, 2)
+Player::Player(Position sPos) : Creature(sPos, 50, 3, 6, 2, 2, 2)
 {
 	animator = Animator(this);
 
-	loadAnimation();
+	loadImage();
 }
 
 Player::~Player()
-{
-}
-
-
-void Player::setExp(int exp)
 {
 }
 
@@ -66,7 +61,7 @@ void Player::update()
 	this->setPosition(sPos.x * 50, sPos.y * 50);
 }
 
-void Player::loadAnimation()
+void Player::loadImage()
 {
 	imageWidth = 12;
 	imageHeight = 16;
@@ -86,10 +81,10 @@ void Player::loadAnimation()
 
 	animator.SwitchAnimation("Idle");
 
-
 	this->setScale(sf::Vector2f(BLOCK_SIZE / 12.0f, BLOCK_SIZE / 16.0f));
-	this->setOrigin(this->getLocalBounds().width / 2, this->getLocalBounds().height / 2);
 	this->setPosition(sf::Vector2f(sPos.x * 50, sPos.y * 50));
+
+	this->setOrigin(this->getLocalBounds().width / 2, this->getLocalBounds().height / 2);
 }
 
 Level Player::getLevel() const
@@ -102,10 +97,9 @@ Level Player::getLevel() const
 void Player::gainExp(int points)
 {
 	if (level.gainExp(points)) {
+		// level up
 		sMaxHp += 10;
 	}
-
-
 }
 
 ostream& operator<<(ostream& out, const Player& player)

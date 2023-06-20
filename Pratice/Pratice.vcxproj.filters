@@ -15,9 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Main.cpp">
-      <Filter>資源檔</Filter>
-    </ClCompile>
     <ClCompile Include="Game.cpp">
       <Filter>來源檔案</Filter>
     </ClCompile>
@@ -66,16 +63,13 @@
     <ClCompile Include="PlayerStatusInfo.cpp">
       <Filter>來源檔案</Filter>
     </ClCompile>
-    <ClCompile Include="DownStair.cpp">
-      <Filter>來源檔案</Filter>
-    </ClCompile>
     <ClCompile Include="Floor.cpp">
       <Filter>來源檔案</Filter>
     </ClCompile>
     <ClCompile Include="Level.cpp">
       <Filter>來源檔案</Filter>
     </ClCompile>
-    <ClCompile Include="UpStair.cpp">
+    <ClCompile Include="Stair.cpp">
       <Filter>來源檔案</Filter>
     </ClCompile>
     <ClCompile Include="Position.cpp">
@@ -97,9 +91,6 @@
       <Filter>來源檔案</Filter>
     </ClCompile>
     <ClCompile Include="MusicPlayer.cpp">
-      <Filter>來源檔案</Filter>
-    </ClCompile>
-    <ClCompile Include="TextManager.cpp">
       <Filter>來源檔案</Filter>
     </ClCompile>
     <ClCompile Include="EffectMananger.cpp">
@@ -124,6 +115,12 @@
       <Filter>來源檔案</Filter>
     </ClCompile>
     <ClCompile Include="PreGame.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="TextManager.cpp">
       <Filter>來源檔案</Filter>
     </ClCompile>
   </ItemGroup>
@@ -179,16 +176,13 @@
     <ClInclude Include="Astar.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
-    <ClInclude Include="DownStair.h">
-      <Filter>標頭檔</Filter>
-    </ClInclude>
     <ClInclude Include="Floor.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
     <ClInclude Include="Level.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
-    <ClInclude Include="UpStair.h">
+    <ClInclude Include="Stair.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
     <ClInclude Include="Position.h">
@@ -242,5 +236,13 @@
     <ClInclude Include="PreGame.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Dungeon.rc">
+      <Filter>資源檔</Filter>
+    </ResourceCompile>
   </ItemGroup>
 </Project>

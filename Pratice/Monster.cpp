@@ -53,19 +53,19 @@ void Monster::attack(Player& player)
 
 }
 
-void Monster::control(Player* player, vector<vector<bool>>& obstacleMap)
+void Monster::control(Player& player, vector<vector<bool>>& obstacleMap)
 {
 
-	int playerX = player->getPos().x;
-	int playerY = player->getPos().y;
+	int playerX = player.getPos().x;
+	int playerY = player.getPos().y;
 
 	if (isDead()) {
 		return;
 	}
-	else if (canAttack(*player)) {
-		attack(*player);
+	else if (canAttack(player)) {
+		attack(player);
 	}
-	else if (findPlayer(*player)) {
+	else if (findPlayer(player)) {
 
 		AStar astar(obstacleMap, sPos.x, sPos.y, playerX, playerY);
 

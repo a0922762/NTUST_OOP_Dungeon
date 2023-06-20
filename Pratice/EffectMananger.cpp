@@ -22,6 +22,7 @@ void EffectMananger::update()
 			i->target->beDamage(i->atk + 5);
 			break;
 
+
 		}
 		i->count--;
 	}

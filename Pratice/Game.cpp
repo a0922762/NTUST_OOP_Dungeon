@@ -199,8 +199,8 @@ void Game::initializeItem()
 	items.clear(); // 先清除item固有資料
 
 	// 先初始化stair
-	items.push_back(new DownStair(this, board->getDownStairPos()));
-	items.push_back(new UpStair(this, board->getUpStairPos()));
+	items.push_back(new Stair(this, board->getDownStairPos(), STAIR_TYPE::DOWN));
+	items.push_back(new Stair(this, board->getUpStairPos(), STAIR_TYPE::UP));
 
 	for (int i = 0; i < board->getWidth(); i++) {
 		for (int j = 0; j < board->getHeight(); j++) {
@@ -273,7 +273,7 @@ void Game::showItem() const
 void Game::MonsterOperate()
 {
 	for (auto i : monsters) {
-		i->control(player, obstacleMap);
+		i->control(*player, obstacleMap);
 	}
 }
 
@@ -523,13 +523,13 @@ void Game::loadGame()
 			if (dead) {
 				continue;
 			}
-			items.push_back(new UpStair(this, { x, y }));
+			items.push_back(new Stair(this, { x, y }, STAIR_TYPE::UP));
 		}
 		else if (itemType == "DownStair") {
 			if (dead) {
 				continue;
 			}
-			items.push_back(new DownStair(this, { x, y }));
+			items.push_back(new Stair(this, { x, y }, STAIR_TYPE::DOWN));
 		}
 		else if (itemType == "BleedTrigger") {
 			items.push_back(new BleedTrigger(this, { x, y }, floor));
@@ -638,7 +638,7 @@ void Game::update(sf::Time dt) {
 	updateItem();
 	updateMonster(dt);
 	player->update();
-	// textManager->update();
+	TextManager::update();
 }
 
 void Game::run()
@@ -665,12 +665,9 @@ void Game::render() {
 	effectMananger.draw(window);
 
 	this->window->draw(*player);
+	TextManager::draw(window);
 	playerStatusInfo.draw(window);
-	// textManager->draw();
 
-	for (const auto& i : monsters) {
-		this->window->draw(i->getText());
-	}
 
 	this->window->display();
 }

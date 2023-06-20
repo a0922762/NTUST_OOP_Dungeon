@@ -23,7 +23,7 @@ public:
 
 	virtual ~Monster();
 	void attack(Player& player);
-	void control(Player* player, vector<vector<bool>> &obstacleMap);
+	void control(Player& player, vector<vector<bool>> &obstacleMap);
 
 	virtual int getExp() const;
 	virtual bool findPlayer(const Player& player);

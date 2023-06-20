@@ -2,6 +2,7 @@
 #include "Item.h"
 #include "GameControl.h"
 #include "TextureCache.h"
+#include "TextManager.h"
 
 class RecoveryPotion : public Item
 {

@@ -31,24 +31,21 @@ private:
 	sf::Music attackMusic;
 
 private:
-	void loadAnimation() override;
+	void loadImage() override;
 public:
 	// Constructor / Destructor
-	Player(sf::Vector2i Pos);
+	Player(Position Pos);
 	virtual ~Player();
 
 	// Functions
 	pair<sf::Vector2i, sf::Vector2i> getCanSee() const;
-	void setExp(int exp);
 	void gainExp(int points);
 	void attack(Monster& target);
-
 	void update();
 
 
 	// Accessors
 	Level getLevel() const;
-	Position getPos() const { return {sPos.x, sPos.y}; }
 
 	// IOstream
 	friend ostream& operator<<(ostream& out, const Player& player);

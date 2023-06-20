@@ -9,6 +9,7 @@
 #pragma once
 #include <vector>
 #include <SFML/Graphics.hpp>
+#include "Creature.h"
 #include "Common.h"
 
 
@@ -18,6 +19,7 @@ enum EFFECT_TYPE {
 	FIRE,
 	BLEED,
 	INVISIBLE,
+	WEAK,
 };
 
 struct Effect {
@@ -32,6 +34,13 @@ struct Effect {
 		this->count = count;
 		this->atk = atk;
 	};
+
+	~Effect() {
+		if (type == EFFECT_TYPE::WEAK) {
+			target->setMaxAtk(target->getMaxAtk() + 5);
+			target->setMinAtk(target->getMinAtk() + 5);
+		}
+	}
 
 };
 

@@ -70,7 +70,7 @@ void Board::draw(sf::RenderWindow* window)
 
 // Inten: check if the block at (x, y) can be walked
 // Post: return true if the block at (x, y) can be walked, false otherwise
-bool Board::canGo(sf::Vector2i pos) const
+bool Board::canGo(const Position& pos) const
 {
 	if (pos.y < 0 || pos.x < 0 || pos.y >= this->height || pos.x >= this->width || allBoard[pos.x][pos.y].canWalk() == false) {
 		return false;
@@ -78,7 +78,7 @@ bool Board::canGo(sf::Vector2i pos) const
 	return true;
 }
 
-bool Board::isRoad(Position pos) const
+bool Board::isRoad(const Position& pos) const
 {
 	if (allBoard[pos.x][pos.y].getType() == BLOCK_TYPE::ROAD) {
 		return true;
@@ -86,12 +86,12 @@ bool Board::isRoad(Position pos) const
 	return false;
 }
 
-sf::Vector2i Board::getDownStairPos() const
+Position Board::getDownStairPos() const
 {
 	return downStairPos;
 }
 
-sf::Vector2i Board::getUpStairPos() const
+Position Board::getUpStairPos() const
 {
 	return upStairPos;
 }

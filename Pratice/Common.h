@@ -37,5 +37,5 @@ std::vector<sf::Vector2i> reservoirSampling(const std::vector<sf::Vector2i>& dat
 // Intent: Find the shortest path from start to end
 // Pre: start and end are valid positions in the map
 // Post: return a vector of positions from start to end
-double getDistance(sf::Vector2i from, sf::Vector2i to);
+double getDistance(const Position& from, const Position& to);
 

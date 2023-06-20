@@ -35,7 +35,7 @@ std::vector<sf::Vector2i> reservoirSampling(const std::vector<sf::Vector2i>& dat
 
 // Intent: Calulate the distance between two point
 // Post: return the distance between two point
-double getDistance(sf::Vector2i from, sf::Vector2i to) {
+double getDistance(const Position& from, const Position& to) {
     return sqrt(pow(double(from.x - to.x), 2) + pow(double(from.y - to.y), 2));
 }
 

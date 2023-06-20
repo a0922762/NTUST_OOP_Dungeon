@@ -1,5 +1,6 @@
 #include "BleedTrigger.h"
 #include "EffectMananger.h"
+#include "TextManager.h"
 
 BleedTrigger::BleedTrigger(GameControl* gameControl, Position pos, Floor floor, bool canSee, bool needOperate, bool isDead) : Trigger(gameControl, pos, canSee, needOperate, isDead)
 {
@@ -33,6 +34,7 @@ void BleedTrigger::update(Player& player)
 	}
 	if (sPos == player.getPos()) {
 		gameControl->addEffect(BLEED, &player, count, atk);
+		TextManager::addRiseText(gameControl->getPlayer(), "Bleeding", gameControl->getPlayer()->getPosition(), 60, 1, 18, sf::Color::Red);
 		toDead();
 	}
 }

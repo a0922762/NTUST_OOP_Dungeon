@@ -18,8 +18,7 @@
 #include "Snake.h"
 #include "Gnoll.h"
 #include "PlayerStatusInfo.h"
-#include "DownStair.h"
-#include "UpStair.h"
+#include "Stair.h"
 #include "Position.h"
 #include "GameOverWindow.h"
 #include "GameControl.h"
@@ -60,7 +59,7 @@ private:
 	EffectMananger effectMananger;
 
 	// Text
-	// TextManager *textManager;
+	TextManager textManager;
 
 	// Music
 	MusicPlayer musicPlayer;

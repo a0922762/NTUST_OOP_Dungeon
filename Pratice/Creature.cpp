@@ -1,22 +1,10 @@
 #include "Creature.h"
+#include "TextManager.h"
 
-// Intent: default constructor
-// Post: set default value to all attributes
-Creature::Creature() 
-	: sPos({ 1, 1 }), sHp(100), sMaxHp(100), sMaxAtk(10), sDef(10), sDodge(10), sHit(5), sDir(DIRECTION::RIGHT), pixelSize(50), canSee(5), animator(this) {
-}
-
-
-Creature::Creature(sf::Vector2i pos, int sMaxHp, int sMinAtk, int sMaxAtk, int sDef, int sDodge, int sHit)
-	: sPos(pos), sMaxHp(sMaxHp), sHp(sMaxHp), sMinAtk(sMinAtk), sMaxAtk(sMaxAtk), sDef(sDef), sDodge(sDodge), sHit(sHit), animator(this), inAttack(false), inDead(false), inChase(false), pixelSize(50), canSee(3), sDir(DIRECTION::RIGHT)
+Creature::Creature(Position pos, int sMaxHp, int sMinAtk, int sMaxAtk, int sDef, int sDodge, int sHit)
+	: sPos(pos), sMaxHp(sMaxHp), sHp(sMaxHp), sMinAtk(sMinAtk), sMaxAtk(sMaxAtk), sDef(sDef), sDodge(sDodge), sHit(sHit), animator(this)
+	, inAttack(false), inDead(false), inChase(false), pixelSize(50), canSee(3), sDir(DIRECTION::RIGHT)
 {
-	font.loadFromFile(FONT_PATH);
-	text = sf::Text("", font, 15);
-	text.setFillColor(sf::Color::Red);
-	text.setOrigin(text.getLocalBounds().width / 2, text.getLocalBounds().height / 2);
-	maxUpDis = 50;
-	upDis = 0;
-
 }
 
 
@@ -44,7 +32,7 @@ bool Creature::moveCoridnate(DIRECTION dir, vector<vector<bool>> obstacleMap)
 			break;
 	}
 	if (newX >= 0 && newX < obstacleMap.size() && newY >= 0 && newY < obstacleMap[0].size() && obstacleMap[newX][newY] == false) {
-		this->move(double(newX - sPos.x) * BLOCK_SIZE, double(newY - sPos.y) * BLOCK_SIZE);
+		this->move(float(newX - sPos.x) * BLOCK_SIZE, float(newY - sPos.y) * BLOCK_SIZE);
 		sPos.x = newX;
 		sPos.y = newY;
 		inChase = true;
@@ -57,7 +45,7 @@ bool Creature::moveCoridnate(DIRECTION dir, vector<vector<bool>> obstacleMap)
 }
 
 // Post: from orinal position to new position
-void Creature::moveCoridnate(sf::Vector2i pos) {
+void Creature::moveCoridnate(const Position& pos) {
 
 	idleTime = sf::seconds(0);
 
@@ -70,7 +58,7 @@ void Creature::moveCoridnate(sf::Vector2i pos) {
 
 
 	this->move((pos.x - sPos.x) * BLOCK_SIZE, (pos.y - sPos.y) * BLOCK_SIZE);
-	sPos = pos;
+	sPos = pos; 
 
 	inChase = true;
 }
@@ -88,27 +76,21 @@ void Creature::attack(Creature& target) {
 void Creature::beDamage(int points) {
 	int damage = points - sDef;
 
+	// 如果防禦>傷害，則一樣造成0傷害
 	if (damage < 0) {
 		damage = 0;
 	}
 
 	sHp -= damage;
 
+	// 如果血量<0，則血量=0，並且死亡
 	if (sHp <= 0) {
 		sHp = 0;
 		inDead = true;
 	}
-
-	text = sf::Text(to_string(points), font, 20);
-	text.setFillColor(sf::Color::Black);
-	sf::Vector2f midTopPos = this->getPosition() - sf::Vector2f(0, this->getLocalBounds().height / 2);
-	upDis = 0;
-	text.setPosition(midTopPos.x - text.getLocalBounds().width / 2, midTopPos.y - upDis - text.getLocalBounds().height);
+	TextManager::addRiseText(this, to_string(damage), getPosition(), 60, 1, 25, sf::Color::White);
 }
 
-void Creature::loadAnimation()
-{
-}
 
 void Creature::updateAnimation(sf::Time dt)
 {
@@ -132,7 +114,7 @@ void Creature::updateAnimation(sf::Time dt)
 		animator.SwitchAnimation("Chase");
 	}
 	else {
-		animator.SwitchAnimation("Idle");
+		animator.SwitchAnimation("Idle"); 
 	}
 
 	if (sDir == DIRECTION::LEFT) {
@@ -144,43 +126,19 @@ void Creature::updateAnimation(sf::Time dt)
 		this->setOrigin(this->getLocalBounds().width / 2, this->getLocalBounds().height / 2);
 	}
 
-	if (text.getString() != "") {
-		if (upDis <= maxUpDis) {
-			sf::Vector2f midTopPos = this->getPosition() - sf::Vector2f(0, this->getLocalBounds().height / 2);
-			upDis += 0.4;
-			text.setPosition(midTopPos.x - text.getLocalBounds().width / 2, midTopPos.y - upDis - text.getLocalBounds().height);
-		}
-		else {
-			text.setString("");
-			upDis = 0;
-		}
-
-	}
-
 
 	animator.Update(dt);
-
 
 }
 
 void Creature::dodge()
 {
-	if (text.getString() != "") {
-		upDis = 0;
-		text.setString("Dodge");
-	}
-	else {
-		upDis = 0;
-		text.setString("Dodge");
-	}
-
-
-
+	TextManager::addRiseText(this, "Dodge", getPosition(), 60, 1, 25, sf::Color::Yellow);
 }
 
 bool Creature::isIdle() const
 {
-	if (idleTime >= sf::seconds(1.5)) {
+	if (idleTime >= sf::seconds(0.5)) {
 		return true;
 	}
 	else {
@@ -238,7 +196,14 @@ int Creature::getDef() const
 	return sDef;
 }
 
-sf::Vector2i Creature::getCoridnate() const {
+const Position Creature::getPos() const
+{
+	return sPos;
+}
+
+
+
+const Position& Creature::getCoridnate() const {
 	return sPos;
 }
 

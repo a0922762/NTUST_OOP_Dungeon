@@ -1,4 +1,5 @@
 #include "AtkPotion.h"
+#include "TextManager.h"
 
 AtkPotion::AtkPotion(GameControl* gameControl, Position pos) : Item(gameControl, pos, true, true, false)
 {
@@ -15,6 +16,7 @@ void AtkPotion::use()
 	gameControl->getPlayer()->setMaxAtk(gameControl->getPlayer()->getMaxAtk() + 1);
 	dead = true;
 	this->setScale(0, 0);
+	TextManager::addRiseText(gameControl->getPlayer(), "ATK+1", gameControl->getPlayer()->getPosition(), 60, 1, 25, sf::Color::Green);
 }
 
 void AtkPotion::loadImage()

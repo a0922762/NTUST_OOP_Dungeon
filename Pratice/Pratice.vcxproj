@@ -146,7 +146,6 @@
     <ClCompile Include="Creature.cpp" />
     <ClCompile Include="DamageTrigger.cpp" />
     <ClCompile Include="DefPotion.cpp" />
-    <ClCompile Include="DownStair.cpp" />
     <ClCompile Include="EffectMananger.cpp" />
     <ClCompile Include="Floor.cpp" />
     <ClCompile Include="Game.cpp" />
@@ -170,7 +169,7 @@
     <ClCompile Include="TextManager.cpp" />
     <ClCompile Include="TextureCache.cpp" />
     <ClCompile Include="Trigger.cpp" />
-    <ClCompile Include="UpStair.cpp" />
+    <ClCompile Include="Stair.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Animation.h" />
@@ -186,7 +185,6 @@
     <ClInclude Include="Creature.h" />
     <ClInclude Include="DamageTrigger.h" />
     <ClInclude Include="DefPotion.h" />
-    <ClInclude Include="DownStair.h" />
     <ClInclude Include="EffectMananger.h" />
     <ClInclude Include="Floor.h" />
     <ClInclude Include="Game.h" />
@@ -206,11 +204,15 @@
     <ClInclude Include="RandomNum.h" />
     <ClInclude Include="Rat.h" />
     <ClInclude Include="RecoveryPotion.h" />
+    <ClInclude Include="resource.h" />
     <ClInclude Include="Snake.h" />
     <ClInclude Include="TextManager.h" />
     <ClInclude Include="TextureCache.h" />
     <ClInclude Include="Trigger.h" />
-    <ClInclude Include="UpStair.h" />
+    <ClInclude Include="Stair.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Dungeon.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

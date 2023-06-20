@@ -17,8 +17,8 @@ private:
 	int width;
 
 	vector<vector<Block>> allBoard;
-	sf::Vector2i downStairPos;
-	sf::Vector2i upStairPos;
+	Position downStairPos;
+	Position upStairPos;
 
 
 public:
@@ -27,11 +27,11 @@ public:
 
 	void draw(sf::RenderWindow* window);
 
-	bool canGo(sf::Vector2i pos) const;
-	bool isRoad(Position pos) const;
+	bool canGo(const Position& pos) const;
+	bool isRoad(const Position& pos) const;
 	
-	sf::Vector2i getDownStairPos() const;
-	sf::Vector2i getUpStairPos() const;
+	Position getDownStairPos() const;
+	Position getUpStairPos() const;
 
 	int getHeight() const;
 	int getWidth() const;
